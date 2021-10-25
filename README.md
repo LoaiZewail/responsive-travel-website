@@ -10,11 +10,11 @@ HTML - CSS - JavaScript
 
 ### PC view
 
-<img src="../assets/desktop.gif" height="500em" />
+<img src="assets/desktop.gif" height="500em" />
 
 ### Mobile view
 
-<img src="../assets/mobile.gif" height="500em" />
+<img src="assets/mobile.gif" height="500em" />
 
 
 
