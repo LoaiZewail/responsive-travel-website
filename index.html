@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="bannerVideo" id="slideShow">
+            <video src="assets/video1.mp4" autoplay muted loop class="active"></video>
+            <video src="assets/video2.mp4" autoplay muted loop></video>
+            <video src="assets/video3.mp4" autoplay muted loop></video>
+            <video src="assets/video4.mp4" autoplay muted loop></video>
+        </div>
+        <div class="container">
+            <header id="navbar">
+                <a href="#" class="logo">World</a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span class="menuIcon" onclick="togglemenu()"></span>
+            </header>
+            <div class="content">
+                <div class="bannerText" id="slideShowText">
+                    <div class="active">
+                        <h2>Tokyo</h2>
+                        <p>Tokyo is famous for Anime, electronics, manga, and video games. 
+                        Akihabara is the epicenter if it all. 
+                        It becomes a jungle of electric lights and colors at night, providing a sensory overload for visitors. 
+                        Getting lost, window shopping, and photography are top activities here.</p>
+                    </div>
+                    <div>
+                        <h2>Paris</h2>
+                        <p>Paris (nicknamed the "City of light") is the capital city of France, and the largest city in France. 
+                        Paris is also the center of French economy, politics, traffic and culture. 
+                        Paris has many art museums and historical buildings. </p>
+                    </div>
+                    <div>
+                        <h2>Cairo</h2>
+                        <p>Cairo is the capital of Egypt and the largest city in Africa, 
+                        with a name that means "the victorious city." 
+                        It is located on both banks of the River Nile near the head of the river's delta in northern Egypt and has been settled for more than 6,000 years, 
+                        serving as the capital of numerous Egyptian kingdoms.</p>
+                    </div>
+                    <div>
+                        <h2>Maldives</h2>
+                        <p>The Maldives are known as “the tropical paradise” for reasons such as its beauty. 
+                        This tropical country has separated islands and islands are surrounded by its own lagoon. 
+                        Each island has pure white sandy beaches. 
+                        A vacation in the Maldives would be relaxing with the white sand beaches and coconut palms surrounded.</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="assets/facebook.png"></a></li>
+                <li><a href="#"><img src="assets/twitter.png"></a></li>
+                <li><a href="#"><img src="assets/instagram.png"></a></li>
+            </ul>
+
+            <ul class="controls">
+                <li onclick="prevSlide();prevSlideText();"><img src="assets/left.png"></li>
+                <li onclick="nextSlide();nextSlideText();"><img src="assets/right.png"></li>
+            </ul>
+        </div>
+    </section>
+<script src="main.js"></script>
+</body>
+
+</html>
