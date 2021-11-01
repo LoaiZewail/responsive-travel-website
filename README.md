@@ -4,7 +4,7 @@ A simple responsive travel website with beautiful UI.
 
 ## Technologies used
 
-HTML - CSS - JavaScript
+HTML5 - CSS3 - JavaScript
 
 ## Screenshots
 
